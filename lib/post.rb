@@ -1,10 +1,10 @@
 class Post
   attr_accessor :title, :author
-  def initialize
+  def initialize(title,author)
     @title = title
   end
 
   def author
-    @author = Author
+    @author = author
   end
 end
